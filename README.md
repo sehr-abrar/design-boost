@@ -1,4 +1,4 @@
-# Design Boost — Daily Design Tips Chrome Extension
+# Design Boost
 
 **Design Boost** shows a random design tip each time you open the extension — perfect for quick UI/UX learning!
 
