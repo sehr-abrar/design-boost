@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: #fdf6ff;
+  margin: 0;
+  padding: 1rem;
+  width: 280px;
+  color: #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  padding: 1rem;
+  border-radius: 20px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  text-align: center;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+h1 {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+  /* color removed, controlled by JS */
+  transition: color 0.5s ease;
+}
+
+#tip {
+  margin-top: -5px;
+  font-size: 0.95rem;
+  color: #444;
+  /* background removed, controlled by JS */
+  padding: 0.75rem;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+button {
+  /* background-color removed, controlled by JS */
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 16px;
+  font-weight: bold;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Style for the category dropdown */
+#categoryFilter {
+  padding: 0.4rem;
+  border-radius: 12px;
+  border: 1.5px solid rgba(0, 0, 0, 0.15);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.95rem;
+  width: 100%;
+  box-sizing: border-box;
+  outline-offset: 2px;
+  cursor: pointer;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#categoryFilter:focus {
+  border-color: #ff88aa; /* match pink color for focus */
+  box-shadow: 0 0 5px rgba(255, 136, 170, 0.7);
+}
