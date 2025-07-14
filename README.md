@@ -21,6 +21,9 @@
 - Click **Next Tip** for a new tip  
 - (Optional) Use category dropdown to filter tips
 
+# Video
+[YouTube Walkthrough](https://youtu.be/BytOHk5wBuc)
+
 ## Files
 - `popup.html` — Popup markup  
 - `style.css` — Styles  
